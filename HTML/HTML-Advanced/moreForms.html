@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devrabic</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Textarea Element -->
+    <label for="message">Type your message:</label>
+    <textarea name="message" id="message" cols="40" rows="5"></textarea>
+
+    <!-- Select Element -->
+    <label for="colors">Choose a color:</label>
+    <select name="colors" id="colors">
+      <option value="red">Red</option>
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+    </select>
+
+    <!-- Datalist Element -->
+    <label for="colors">Choose a color:</label>
+    <input type="text" list="color-options" name="colors" />
+    <datalist id="color-options">
+      <option value="Red"></option>
+      <option value="Green"></option>
+      <option value="Blue"></option>
+      <option value="Yellow"></option>
+      <option value="Orange"></option>
+      <option value="Purple"></option>
+      <option value="Pink"></option>
+    </datalist>
+
+    <!-- Optgroup and Option Elements -->
+    <label for="fruits">Choose a fruit:</label>
+    <select name="fruits" id="fruits">
+      <optgroup label="Citrus">
+        <option value="orange">Orange</option>
+        <option value="lemon">Lemon</option>
+        <option value="lime">Lime</option>
+      </optgroup>
+      <optgroup label="Berries">
+        <option value="strawberry">Strawberry</option>
+        <option value="blueberry">Blueberry</option>
+        <option value="raspberry">Raspberry</option>
+      </optgroup>
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+    </select>
+
+    <!-- Menu -->
+  </body>
+</html>
