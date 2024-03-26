@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  /* height: 800px; */
+}
+
+/* @media (max-width: 600px){
+  .container{
+    flex-direction: column;
+  }
+} */
+
+.item {
+  background-color: gray;
+  width: 200px;
+  margin: 10px;
+  border: 2px solid red;
+}
+
+.item-1 {
+  min-height: 50px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.item-2 {
+  min-height: 100px;
+  flex-grow: 2;
+  flex-basis: 0;
+}
+
+.item-3 {
+  min-height: 150px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
