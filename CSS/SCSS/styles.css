@@ -1,0 +1,27 @@
+header div h1 {
+  color: blue;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div p {
+  color: #f64949;
+}
+
+button {
+  background-color: aqua;
+}
+button:hover {
+  background-color: #f64949;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}

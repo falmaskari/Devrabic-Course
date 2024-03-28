@@ -1,0 +1,28 @@
+@import "_variables";
+@import "_heading";
+
+@mixin centerDiv($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+div {
+  @include centerDiv(column);
+
+  p {
+    color: $color-primary;
+  }
+}
+
+button {
+  background-color: aqua;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}
+
+.footer {
+  @include centerDiv(row);
+}
